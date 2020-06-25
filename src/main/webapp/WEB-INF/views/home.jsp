@@ -2,7 +2,7 @@
 <%@ page session="true" contentType="text/html; charset=UTF-8"%>
 <html>
 <head>
-<title>Home</title>
+<title>야관문</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
@@ -15,9 +15,12 @@
 <body>
 
 	<jsp:include page="./nav.jsp" flush="true" />
+<<<<<<< HEAD
 	
+=======
+>>>>>>> upstream/master
 	<div class="container" style="margin-top: 1.5rem;">
-		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="2000">
+		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="1500">
 			<ol class="carousel-indicators">
 				<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
 				<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -61,15 +64,7 @@
 						<h2>늘어나는 20·30대 탈모 고민 함께해요!</h2>-->
 					</div>
 				</div>
-			</div>
-			<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
+			</div> 
 		</div>
 	</div>
 	<br>
