@@ -15,10 +15,6 @@
 <body>
 
 	<jsp:include page="./nav.jsp" flush="true" />
-<<<<<<< HEAD
-	
-=======
->>>>>>> upstream/master
 	<div class="container" style="margin-top: 1.5rem;">
 		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="1500">
 			<ol class="carousel-indicators">
