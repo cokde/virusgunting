@@ -52,13 +52,13 @@ public class TestController {
 			model.addAttribute("type", "");
 
 		} else {
-<<<<<<< HEAD
+
 			model.addAttribute("msg", "도넛방석 하나 놔드려야겠어요!!");
-=======
+
 			model.addAttribute("msg", "빨리 도넛방석 놔드려야겠어요!!");
 			model.addAttribute("type", "치질 ");
 
->>>>>>> upstream/master
+
 		}
 		return "/test/result";
 	}

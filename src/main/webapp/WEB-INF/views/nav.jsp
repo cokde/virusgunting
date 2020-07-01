@@ -12,10 +12,10 @@
 <<<<<<< HEAD
 		<img src="<c:url value='/images/home/logo.png'/>" id="logotop" width="50px" height="50px" class="d-inline-block align-top">
 		<span class="logotitle" style = "font-color: white">동키</span>
-=======
+
 		<img src="<c:url value='/images/home/donkey.png'/>" id="logotop" width="50px" height="50px" class="d-inline-block align-top">
 		<span class="logotitle">YAGWANMOON</span>
->>>>>>> upstream/master
+
 	</a>
 	<div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
 		<ul class="navbar-nav font-nav">
