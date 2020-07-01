@@ -10,8 +10,8 @@
 
 <nav class="navbar navbar-expand-md navbar-dark bg-info"  >
 	<a class="navbar-brand ml-3" href="<c:url value='/'/>" style="margin-rigth: auto; font-size: 2rem;">
-		<img src="<c:url value='/images/home/logo.jpg'/>" id="logotop" width="50px" height="50px" class="d-inline-block align-top">
-		<span class="logotitle">야 관 문</span>
+		<img src="<c:url value='/images/home/logo.png'/>" id="logotop" width="50px" height="50px" class="d-inline-block align-top">
+		<span class="logotitle" style = "font-color: white">동키</span>
 	</a>
 	<div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
 		<ul class="navbar-nav">
