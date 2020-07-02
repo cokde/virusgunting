@@ -3,9 +3,9 @@
 <html>
 
 <head>
+<link rel="shortcut icon" href="<c:url value='/images/favicon.png'/>">
+<link rel="icon" href="<<c:url value='/images/favicon.png'/>>">
 <title>야관문</title>
-<style>
-</style>
 </head>
 <body>
 	<jsp:include page="./nav.jsp" flush="true" />
@@ -21,7 +21,7 @@
 				<i class="fas fa-bomb"></i>
 			</span>
 			, The
-			<span style="color:#31B2A1;">
+			<span style="color: #31B2A1;">
 				Doctor
 				<i class="fas fa-user-nurse"></i>
 			</span>
