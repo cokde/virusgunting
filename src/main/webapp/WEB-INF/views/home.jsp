@@ -10,8 +10,6 @@
 <body>
 	<jsp:include page="./nav.jsp" flush="true" />
 
-	<div class="container"  align="center"  >
-		<p style="font-size: 4rem; font-family: times new roman; font-weight: 700;">After The Disease The Doctor Called</p>
 
 	<div class="container" align="center">
 		<p style="font-size: 4rem; font-weight: 700;" class="font-shadow">

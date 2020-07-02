@@ -49,21 +49,12 @@ public class PostController {
 
 		int views = post.getPostViews();
 		post.setPostContent(post.getPostContent().replace("\r\n", "<br>"));
-<<<<<<< .merge_file_a11492
- 
-=======
-
->>>>>>> .merge_file_a14276
 		model.addAttribute("post", post);
 		List<CommentVO> commentList = commentService.getCommentList(postId);
 		model.addAttribute("commentList", commentList);
 
 		UserVO user = (UserVO) session.getAttribute("member");
-<<<<<<< .merge_file_a11492
-		int like_check,dislike_check;
-=======
-		int like_check, dislike_check;
->>>>>>> .merge_file_a14276
+		int like_check,dislike_check; 
 		if (user != null) {
 			like_check = postService.checklikePost(postId, user.getUserId());
 			dislike_check = postService.checkdislikePost(postId, user.getUserId());
@@ -93,19 +84,13 @@ public class PostController {
 	}
 
 	@RequestMapping(value = "/post/insert", method = RequestMethod.GET)
-<<<<<<< .merge_file_a11492
-	public String postInsert(Model model, HttpServletRequest req) {
-=======
+ 
 	public String postInsert(Model model, HttpServletRequest req,RedirectAttributes rttr) {
->>>>>>> .merge_file_a14276
 		HttpSession session = req.getSession();
 		UserVO login = (UserVO) session.getAttribute("member");
 
 		if (login == null) {
-<<<<<<< .merge_file_a11492
-=======
 			rttr.addFlashAttribute("msg", "loginplease");
->>>>>>> .merge_file_a14276
 			return "redirect:/user/signin";
 		}
 		return "/post/insert";
